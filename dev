@@ -1,0 +1,10 @@
+[loadBalanace]
+app01
+
+
+[webServer]
+app02
+
+
+[control]
+control-instance ansible_connection=local
