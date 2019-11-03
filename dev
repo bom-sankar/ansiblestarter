@@ -1,4 +1,4 @@
-[loadBalanace]
+[loadBalancer]
 app01 ansible_host=35.193.250.139
 
 
@@ -13,7 +13,7 @@ db01 ansible_host=34.69.24.229
 control-instance ansible_connection=local
 
 [appsettings:children]
-loadBalanace
+loadBalancer
 webServer
 dbServer
 
