@@ -1,9 +1,9 @@
 [loadBalanace]
-app01
+35.193.250.139
 
 
 [webServer]
-app02
+35.225.194.229
 
 
 [control]
