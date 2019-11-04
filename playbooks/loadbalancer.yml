@@ -2,5 +2,5 @@
 - hosts: loadBalancer
   become: true
   tasks:
-    - name: install web components
-      apt: name=['nginx', 'python-pip', 'python-virtualenv'] state=present update_cache=yes
+  - name: install web components
+    apt: name=['nginx', 'python-pip', 'python-virtualenv'] state=present update_cache=yes
